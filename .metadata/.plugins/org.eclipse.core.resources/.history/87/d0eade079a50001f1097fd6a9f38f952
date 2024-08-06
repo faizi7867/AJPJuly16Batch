@@ -1,0 +1,18 @@
+package com.oppo;
+import java.util.*;
+public class MapIMpl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Map<Integer,String > empRecord = new HashMap<Integer, String>();
+		empRecord.put(101, "Ramesh");
+		empRecord.put(102, "Ganesh");
+		empRecord.put(103, "Dinesh");
+		empRecord.put(104, "Ramesh");
+		
+		System.out.println(empRecord);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.oppo;
+
+import java.util.*;
+
+public class LinkedListSmples {
+	public static void main(String[] args) {
+		LinkedList<String> linkedList = new LinkedList<>();
+		linkedList.add("Alice");
+		linkedList.add("Bob");
+		linkedList.add("Charlie");
+		System.out.println("LinkedList: " + linkedList);
+
+		
+
+	
+	}
+
+}

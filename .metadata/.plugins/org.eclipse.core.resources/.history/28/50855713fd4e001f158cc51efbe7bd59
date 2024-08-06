@@ -1,0 +1,15 @@
+package com.oppo;
+import java.util.*;
+public class QueueOps {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Queue<String> tq = new PriorityQueue<String>();
+		tq.add("sumit");
+		tq.add("Amit");
+		tq.offer("Himanshi");
+		
+		System.out.println(tq);
+	}
+
+}

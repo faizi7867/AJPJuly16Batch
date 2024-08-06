@@ -1,0 +1,23 @@
+package com.oppo;
+
+import java.util.HashSet;
+
+public class HashSetIMp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashSet<Integer> iset = new HashSet<Integer>();
+		iset.add(10);
+		iset.add(20);
+		iset.add(30);
+		iset.add(40);
+		iset.add(50);
+		iset.add(60);
+		System.out.println(iset.size());
+		iset.clear();
+		System.out.println(iset);
+		
+
+	}
+
+}

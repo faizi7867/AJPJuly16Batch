@@ -1,0 +1,61 @@
+package com.oppo;
+
+import java.util.*;
+
+public class HashSetIMp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashSet<Integer> iset = new HashSet<Integer>();
+		iset.add(10);
+		iset.add(20);
+		iset.add(30);
+		iset.add(40);
+		iset.add(50);
+		iset.add(60);
+		System.out.println(iset);
+
+		LinkedHashSet<Integer> iset2 = new LinkedHashSet<Integer>();
+		iset2.add(10);
+		iset2.add(20);
+		iset2.add(30);
+		iset2.add(40);
+		iset2.add(50);
+		iset2.add(60);
+		
+		HashSet<String> hashSet = new HashSet<>();
+		LinkedHashSet<String> linkedHashSet = new LinkedHashSet<>();
+		hashSet.add("apple");
+		hashSet.add("banana");
+		hashSet.add("orange");
+		linkedHashSet.add("apple");
+		linkedHashSet.add("banana");
+		linkedHashSet.add("orange");
+		System.out.println("HashSet:");
+		for (String fruit : hashSet) {
+		System.out.println(fruit);
+		}
+		System.out.println("LinkedHashSet:");
+		for (String fruit : linkedHashSet) {
+	
+		System.out.println(iset2);
+		}	
+		
+//		HashSet<Integer> i3 = iset;
+//		
+//		iset.add(70);
+//		i3.add(80);
+//		System.out.println();
+//		
+//		
+//		System.out.println(iset2);
+//		System.out.println(i3);
+//		j
+		
+		SingleNumber sn  =  new SingleNumber();
+		int res = sn.getSingleDigitSum(12345);
+		System.out.println(res);
+
+	}
+
+}

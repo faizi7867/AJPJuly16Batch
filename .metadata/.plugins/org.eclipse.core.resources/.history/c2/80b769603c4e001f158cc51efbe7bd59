@@ -1,0 +1,20 @@
+package com.oppo;
+
+import java.util.*;
+
+public class LinkedListSmples {
+	public static void main(String[] args) {
+		LinkedList<String> llistObj= new LinkedList<String>();
+		
+		
+		ArrayList<String> arraylist= new ArrayList<String>();
+		arraylist.add("String1");
+		arraylist.add("String2");
+		
+		llistObj.addAll(arraylist);
+		
+		
+		System.out.println(llistObj);
+	}
+
+}

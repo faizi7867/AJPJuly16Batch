@@ -1,0 +1,40 @@
+package com.oppo;
+
+import java.util.*;
+import java.util.Map.Entry;
+
+public class MapIMpl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Map<Integer, String> empRecord = new HashMap<Integer, String>();
+		empRecord.put(101, "Ramesh");
+		empRecord.put(102, "Ganesh");
+		empRecord.put(103, "Dinesh");
+		empRecord.put(104, "Ramesh");
+		empRecord.put(null, "vijay");
+		System.out.println(empRecord);
+		empRecord.remove(104);
+		
+		empRecord.put(104, "Ramesh Gupta");
+		System.out.println(empRecord);
+
+		System.out.println("welcome " + empRecord.get(102));
+		//
+//		for (Entry<Integer, String> K : empRecord.entrySet()) {
+//			System.out.println(K.getKey());
+//			System.out.println(K.getValue());
+//		}
+//
+//		Set s = empRecord.entrySet();
+//		Iterator it = s.iterator();
+//		while (it.hasNext()) {
+//			Entry<Integer, String> e = (Entry<Integer, String>) it.next();
+//			System.out.println(e.getKey());
+//			System.out.println(e.getValue());
+//		}
+
+	}
+
+}

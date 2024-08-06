@@ -1,0 +1,17 @@
+package com.oppo;
+
+public class Exec {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Student s = new Student();
+			s.setName("Sachin");
+			System.out.println(s.getName());
+			
+			Ex e = new Ex();
+			IStud i = e;
+			i.showDetails();
+
+	}
+
+}

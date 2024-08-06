@@ -1,0 +1,38 @@
+package com.oppo;
+
+public class Exec {
+
+	public static void main(String[] args) {
+		String s = "apple";
+//		for(int i = 0 ;i<9; i ++)
+//		{
+//			System.out.println(s.charAt(i));
+//		}
+		for(char  c : s.toCharArray())
+		{
+			System.out.println(c);
+		}
+		
+	}
+
+}
+
+class OddEven
+{
+	
+//	this function take one integer as input and checks whether is 
+//	even or ad and prints it
+	public void checkOddEven(int number)
+	{
+//		checking whether the number gives remainder as 0 or not
+		if(number % 2 == 0)
+		{
+			System.out.println("the given number is a even number");
+		}
+		else
+		{
+			System.out.println("the given number is a odd number number");
+		}
+	}
+	
+}

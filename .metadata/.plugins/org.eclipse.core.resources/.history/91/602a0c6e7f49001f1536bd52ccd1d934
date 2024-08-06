@@ -1,0 +1,10 @@
+package com.oppo;
+
+public class Polymorphism {
+	
+	public void m1()
+	{
+		
+	}
+
+}

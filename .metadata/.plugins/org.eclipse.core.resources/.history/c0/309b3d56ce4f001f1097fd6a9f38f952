@@ -1,0 +1,38 @@
+package com.oppo;
+
+import java.util.HashSet;
+
+public class HashSetIMp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		HashSet<Integer> iset = new HashSet<Integer>();
+//		iset.add(10);
+//		iset.add(20);
+//		iset.add(30);
+//		iset.add(40);
+//		iset.add(50);
+//		iset.add(60);
+//		System.out.println(iset.size());
+//		System.out.println(iset.contains(100));
+//		
+//		Object iset2  = iset.clone();
+//		
+//		HashSet<Integer> i3 = iset;
+//		
+//		iset.add(70);
+//		i3.add(80);
+//		System.out.println();
+//		
+//		
+//		System.out.println(iset2);
+//		System.out.println(i3);
+//		
+		
+		SingleNumber sn  =  new SingleNumber();
+		int res = sn.getSingleDigitSum(12345);
+		System.out.println(res);
+
+	}
+
+}

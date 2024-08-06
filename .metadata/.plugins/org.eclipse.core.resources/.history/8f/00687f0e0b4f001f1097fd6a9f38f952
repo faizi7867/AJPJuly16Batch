@@ -1,0 +1,26 @@
+package com.oppo;
+
+import java.util.*;
+
+public class DQUueIMpl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Deque<String> dq = new ArrayDeque<String>();
+		dq.add("tarun");
+		dq.addLast("aachal");
+		dq.add("Bhawna");
+		dq.addFirst("Farhan");
+		dq.addFirst("kunal");
+		dq.add("Farhan");
+		
+		System.out.println(dq);
+		
+		dq.removeLast();
+		System.out.println(dq);
+		
+		
+	}
+	
+
+}

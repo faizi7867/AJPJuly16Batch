@@ -1,0 +1,35 @@
+package com.oppo;
+
+public class Smartphone {
+	
+	 String brand;
+	private String model;
+	private int ram;
+	private int storage;
+	private String color;
+	
+	public void playMusic()
+	{
+		System.out.println("playing music");
+	}
+	public void installApps()
+	{
+		System.out.println("installing apps");
+	}
+	
+	 Smartphone(int age) {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}
+
+class Program
+{
+	public static void main(String[] args)
+	{
+		Smartphone s= new Smartphone(10);
+		s.playMusic();
+	}
+	
+}

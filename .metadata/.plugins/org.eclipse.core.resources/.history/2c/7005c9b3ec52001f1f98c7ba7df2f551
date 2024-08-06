@@ -1,0 +1,36 @@
+package com.oppo;
+
+import java.util.*;
+import java.util.Map.Entry;
+
+public class MapIMpl {
+
+	public static void main(String [] args) {
+		// TODO Auto-generated method stub
+		
+		TreeMap<Integer, String> empRecord = new TreeMap<>();
+		empRecord.put(110, "Ramesh");
+		empRecord.put(102, "Ganesh");
+		empRecord.put(103, "Dinesh");
+		empRecord.put(104, "Ramesh");
+		empRecord.put(105, null);
+		System.out.println(empRecord);
+//
+//		System.out.println("welcome " + empRecord.get(102));
+//		System.out.println(empRecord);
+//		System.out.println(empRecord.values());
+//		
+//		
+//	for(	var emp:empRecord.entrySet())
+//
+//{
+//		System.out.println(emp.getKey());
+//		System.out.println(emp.getValue());
+//}
+//
+
+		System.out.println(empRecord.firstKey());
+		System.err.println(empRecord.higherKey(102));
+	}
+
+}

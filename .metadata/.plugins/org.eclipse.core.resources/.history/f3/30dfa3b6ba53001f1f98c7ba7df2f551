@@ -1,0 +1,46 @@
+package com.oppo;
+
+public class SampleIMpl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class HashCodeCheck {
+	private final String importantField;
+	private final String anotherField;
+
+	public HashCodeCheck(final String equalField, final String anotherField) {
+		this.importantField = equalField;
+		this.anotherField = anotherField;
+	}
+
+//We have written hascode() method with user define logic
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((importantField == null) ? 0 : importantField.hashCode());
+		return result;
+	}
+
+	public boolean equals(final Object obj) {
+		if (this == obj) // here checking object’s reference
+			return true;
+		if (obj == null) // checking object is null or not
+			return false;
+		if (getClass() != obj.getClass()) // checking both are from same class or not
+			return false;
+
+		final HashCodeCheck other = (HashCodeCheck) obj;
+		if (importantField == null) {
+			if (other.importantField != null)
+				return false;
+		} else if (!importantField.equals(other.importantField))
+			return false;
+		return true;
+	}
+}

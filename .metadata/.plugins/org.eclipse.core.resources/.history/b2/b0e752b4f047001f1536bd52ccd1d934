@@ -1,0 +1,18 @@
+package com.oppo;
+
+public class FlowControl {
+	
+	public void details()
+	{
+			int x = 13;
+			if(x >= 100)
+			{
+				System.out.println("hii");
+			}
+			else
+			{
+				System.out.println("bye");
+			}
+	}
+
+}

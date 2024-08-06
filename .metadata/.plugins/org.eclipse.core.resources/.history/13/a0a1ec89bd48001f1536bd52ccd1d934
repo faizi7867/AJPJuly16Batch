@@ -1,0 +1,28 @@
+package com.oppo;
+
+public class Exec {
+
+	public static void main(String[] args) {
+//		
+//		MountainBike mb  =new MountainBike(6, 50,10);
+//		mb.speedUp(30);
+//		System.out.println(mb);
+		
+		B b = new 	B();
+		b.display();
+
+	}
+
+}
+class A{
+	public int x = 10;
+}
+
+class B extends A{
+	public int x = 30;
+	
+	public void display()
+	{
+		System.out.println(x);
+	}
+}

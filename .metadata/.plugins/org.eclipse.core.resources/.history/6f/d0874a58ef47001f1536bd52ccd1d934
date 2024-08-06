@@ -1,0 +1,14 @@
+package com.oppo;
+
+public class FlowControl {
+	
+	public void details()
+	{
+			int x = 10;
+			if(x >= 10)
+			{
+				System.out.println("hii");
+			}
+	}
+
+}

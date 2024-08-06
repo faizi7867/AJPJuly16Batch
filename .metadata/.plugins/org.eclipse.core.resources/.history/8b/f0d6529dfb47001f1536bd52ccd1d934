@@ -1,0 +1,50 @@
+package com.oppo;
+
+public class Exec {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for (int i = 1;i < 6;i=i+2)
+		{
+			System.out.println(i);
+		}
+		
+		System.out.println("---------------------------------------------");
+		int j = 1;
+		while (j<=5)
+		{
+			System.out.println(j);
+			j++;
+		}
+		
+//		fc.details();
+//		fc.getDayNameUsingSwitch();
+		
+		
+		
+		
+		
+	}
+
+}
+
+class OddEven
+{
+	
+//	this function take one integer as input and checks whether is 
+//	even or ad and prints it
+	public void checkOddEven(int number)
+	{
+//		checking whether the number gives remainder as 0 or not
+		if(number % 2 == 0)
+		{
+			System.out.println("the given number is a even number");
+		}
+		else
+		{
+			System.out.println("the given number is a odd number number");
+		}
+	}
+	
+}

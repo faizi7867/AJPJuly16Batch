@@ -1,0 +1,44 @@
+package com.oppo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionBasics {
+	public static void main(String[] args) {
+		List<Integer> al  = new ArrayList<Integer>();
+		al.add(10);
+		al.add(20);
+		al.add(30);
+		al.
+	
+		
+		for(int i : al)
+		{
+			System.out.println(i);
+		}
+	}
+
+}
+
+
+class Gen<T> 
+{
+	public void add(T a, T b)
+	{
+		
+	}
+}
+
+class MyGen<T>
+{
+T obj;
+void add(T obj)
+{
+	this.obj=obj;
+}
+T get()
+{
+	return obj;
+	}
+}
+

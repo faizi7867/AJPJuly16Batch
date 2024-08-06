@@ -1,0 +1,41 @@
+package com.oppo;
+
+public class Polymorphism
+{
+	public static void main(String[] args)
+	{
+		PolymorphismBL pbl = new PolymorphismBL();
+		pbl.m1(10,"a");
+	}
+}
+
+class PolymorphismBL {
+	
+	
+	public void m1()
+	{
+		System.out.println(10);
+	}
+	public void m1(long x)
+	{
+		System.out.println(20);
+
+	}
+	public void m1(float x)
+	{
+		System.out.println(30);
+
+	}
+	public void m1(int x,String y)
+	{
+		System.out.println(40);
+
+	}
+	public void m1(String y,int x)
+	{
+		System.out.println(50);
+
+	}
+
+
+}
